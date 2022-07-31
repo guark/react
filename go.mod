@@ -2,10 +2,9 @@ module {{AppPkg}}
 
 go 1.18
 
-
 require (
-	github.com/guark/guark v0.1.1
-	github.com/guark/plugins v0.0.0-20210821185706-126e378321e2
+	github.com/guark/guark v0.1.2
+	github.com/guark/plugins v0.0.0-20220731230528-dd3f3b63fc78
 )
 
 require (
@@ -24,5 +23,5 @@ require (
 	github.com/zserge/lorca v0.1.10 // indirect
 	golang.org/x/net v0.0.0-20220728211354-c7608f3a8462 // indirect
 	golang.org/x/sys v0.0.0-20220731174439-a90be440212d // indirect
-	gopkg.in/yaml.v2 v2.3.0 // indirect
+	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
