@@ -1,0 +1,28 @@
+guark: v1
+
+# App id must be unique.
+id: GuarkDemo
+
+# Your App name.
+name: Guark Demo
+
+# App version.
+version: v0.0.1
+
+# App license slug name.
+license: MIT
+
+# App log level. Values: debug, info, warn, error, fatal, panic
+logLevel: debug
+
+# App engine name. Values: webview, chrome, hybrid
+engineName: hybrid
+
+# App engine config and options.
+engineConfig:
+  # min: Width and height are minimum bounds
+  # max: Width and height are maximum bounds
+  # fix: Window size can not be changed by a user
+  window_hint: "min"
+  window_width: 1024
+  window_height: 700

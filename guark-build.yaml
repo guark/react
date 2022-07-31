@@ -1,0 +1,20 @@
+# Guark build config file.
+
+setup:
+  - cmd: yarn install
+    dir: ui
+  - cmd: go mod download
+  - cmd: go mod tidy
+  - cmd: go mod verify
+
+linux:
+  ldflags: ""
+
+darwin:
+  ldflags: ""
+
+windows:
+  cc: /usr/bin/x86_64-w64-mingw32-gcc
+  cxx: /usr/bin/x86_64-w64-mingw32-g++
+  ldflags: "-H windowsgui"
+  windres: /usr/bin/x86_64-w64-mingw32-windres
