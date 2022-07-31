@@ -9,6 +9,8 @@ class GuarkLockPlugin {
 	}
 }
 
+process.env.BUILD_PATH = process.env.GUARK_BUILD_DIR
+
 module.exports = function override(config, env)
 {
 	config.output.path = process.env.GUARK_BUILD_DIR;
