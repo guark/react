@@ -7,7 +7,7 @@ require (
 	github.com/guark/plugins v0.0.0-20220731230528-dd3f3b63fc78
 )
 
-replace github.com/sqweek/dialog => github.com/sqweek/dialog v0.0.0-20220504154117-be45b268883a
+replace github.com/sqweek/dialog => github.com/sqweek/dialog v0.0.0-20220504154117-be45b268883a
 
 require (
 	github.com/TheTitanrain/w32 v0.0.0-20200114052255-2654d97dbd3d // indirect
