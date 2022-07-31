@@ -2,7 +2,6 @@ module {{AppPkg}}
 
 go 1.18
 
-go 1.18
 
 require (
 	github.com/guark/guark v0.1.1
