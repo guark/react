@@ -3,7 +3,7 @@ module {{AppPkg}}
 go 1.18
 
 require (
-	github.com/guark/guark v0.1.2
+	github.com/guark/guark v0.1.3
 	github.com/guark/plugins v0.0.0-20220731230528-dd3f3b63fc78
 )
 
@@ -25,3 +25,4 @@ require (
 	golang.org/x/sys v0.0.0-20220731174439-a90be440212d // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
+
