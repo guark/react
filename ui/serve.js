@@ -9,6 +9,7 @@ if (!args.port || !args.host) {
 // args passed by guark parent process
 process.env.PORT = args.port
 process.env.HOST = args.host
+process.env.BROWSER = 'none'
 
 spawn(args.pkg || "yarn", ["start"], {
 	shell: true,
